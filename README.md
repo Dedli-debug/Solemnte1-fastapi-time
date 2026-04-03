@@ -1,4 +1,4 @@
-# Taller FastAPI Time
+# Solemne FastAPI Time
 
 API simple desarrollada con **FastAPI** que expone el endpoint `/time` y devuelve la **fecha y hora actual** en formato JSON.
 
