@@ -4,6 +4,8 @@ API simple desarrollada con **FastAPI** que expone el endpoint `/time` y devuelv
 
 Este proyecto fue realizado usando **uv** para la gestión del entorno virtual, **pytest** para pruebas, **Docker** para contenerización y **GitHub Actions** para automatizar linting, testing y publicación de la imagen en Docker Hub.
 
+La hora es obtenida desde la **Hora Oficial de Chile** utilizando la librería **ntplib** y consultando el servidor **ntp.shoa.cl**.
+
 ## Dependencias usadas
 
 - Python 3.12
