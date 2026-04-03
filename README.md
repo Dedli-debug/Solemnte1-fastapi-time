@@ -40,12 +40,15 @@ Probar en el navegador: http://127.0.0.1:8000/time
 Antes de ejecutar estos comandos, asegúrate de estar en la carpeta donde se encuentra el archivo Dockerfile.
 
 a) Construir la imagen Docker
+
 docker build -t taller-fastapi-time .
 
 b) Ejecutar el contenedor Docker
+
 docker run -p 8000:8000 taller-fastapi-time
 
 c) Abrir en el navegador
+
 http://127.0.0.1:8000/time
 
 ### 4.Instrucciones para testear el API
