@@ -15,3 +15,5 @@ def test_time():
     assert response.status_code == 200
     data = response.json()
     assert "time" in data
+    assert "source" in data
+    assert data["source"] == "SHOA NTP"
