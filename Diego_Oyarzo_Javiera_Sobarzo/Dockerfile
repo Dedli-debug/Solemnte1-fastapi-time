@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir --no-compile fastapi uvicorn
+RUN pip install --no-cache-dir --no-compile fastapi uvicorn ntplib
 
 COPY main.py .
 
