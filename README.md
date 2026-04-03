@@ -4,7 +4,7 @@ API simple desarrollada con **FastAPI** que expone el endpoint `/time` y devuelv
 
 Este proyecto fue realizado usando **uv** para la gestión del entorno virtual, **pytest** para pruebas, **Docker** para contenerización y **GitHub Actions** para automatizar linting, testing y publicación de la imagen en Docker Hub.
 
-## Tecnologías usadas
+## Dependencias usadas
 
 - Python 3.12
 - FastAPI
