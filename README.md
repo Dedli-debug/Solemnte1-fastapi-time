@@ -38,7 +38,11 @@ uv run python -m uvicorn main:app --host 127.0.0.1 --port 8000
 
 Probar en el navegador: http://127.0.0.1:8000/time
 
-### 3. Instrucciones para ejecutar la aplicación con Docker
+### 3. Ejecutar Pytest
+
+uv run python -m pytest -v test_main.py
+
+### 4. Instrucciones para ejecutar la aplicación con Docker
 Antes de ejecutar estos comandos, asegúrate de estar en la carpeta donde se encuentra el archivo Dockerfile.
 
 a) Construir la imagen Docker
@@ -53,7 +57,7 @@ c) Abrir en el navegador
 
 http://127.0.0.1:8000/time
 
-### 4.Instrucciones para testear el API
+### 5. Instrucciones para testear el API
 
 ## Opción 1: desde el navegador web
 Abrir: http://127.0.0.1:8000/time
